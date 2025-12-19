@@ -3,8 +3,6 @@ import requests
 import re
 import joblib
 
-
-
 # --------------- CONFIG ---------------- #
 st.set_page_config(page_title="PrimeNews - Fake News Predictor", layout="centered")
 
@@ -43,11 +41,6 @@ def set_bg_from_local(image_file):
 
 # Call the function with your image path
 set_bg_from_local("bg_news_img.jpg")
-
-
-
-
-
 
 # --------------- FAKE NEWS PREDICTION ONLY ---------------- #
 st.markdown('<div class="title-left">🔮 PrimeNews - Fake News Predictor</div>', unsafe_allow_html=True)
